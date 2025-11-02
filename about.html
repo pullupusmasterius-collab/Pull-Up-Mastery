@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+  <link rel="preload" as="image" href="./assets/images/calories.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="barbell.svg" style="width: 50px">
+
+        <span class="span">Pull Up Mastery</span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link " data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="class.html" class="navbar-link " data-nav-link>Private coaching</a>
+          </li>
+			<li>
+            <a href="about.html" class="navbar-link active" data-nav-link>Filip</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="join.html" class="btn btn-secondary">Join Now</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <strong class="strong">The Best</strong>Strenght Guidance
+            </p>
+
+            <h1 class="h1 hero-title">Work Hard For a Better Life</h1>
+
+            <p class="section-text">
+              Road to greatness starts with yourself, your own will is your only limit.
+            </p>
+
+            <a href="join.html" class="btn btn-primary">Get Started</a>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/heroOPT.png"height="753" alt="hero banner" class="w-100">
+
+            <img src="./assets/images/hero-circle-one.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-1">
+            <img src="./assets/images/hero-circle-two.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-2">
+
+            
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+			<div class="about-content">
+
+            <p class="section-subtitle">About Me</p>
+
+            <h2 class="h2 section-title">Welcome To Pull Up Mastery</h2>
+
+            <p class="section-text">
+             
+				I started training because I wanted to look better. I kept
+				training because I couldn’t imagine life without it. I was
+				once overweight, ignored, and disrespected and that pain
+				became my motivation.S
+			  </p>
+			  <p class="section-text">
+             
+				  I learned that true strength isn’t about doing more, it’s
+				  about doing what matters with fire, focus, and the right
+				  mindset.
+
+			  </p>
+
+            <p class="section-text">
+              Now I help others build the same power. Because I know
+				what it feels like to be stuck, and now I know how to break
+				through.
+            </p>
+
+            <div class="wrapper">
+
+              <div class="about-coach">
+
+                <figure class="coach-avatar">
+                  <img src="./assets/images/coach.png" width="65" height="65" loading="lazy" alt="Trainer">
+                </figure>
+
+                <div>
+                  <h3 class="h3 coach-name">Filip Budiša</h3>
+
+                  <p class="coach-title">Strength Coach</p>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="about-banner has-after">
+            <img src="./assets/images/welcomeOPT.png" width="660" loading="lazy" alt="about banner"
+              class="w-100">
+
+            <img src="./assets/images/about-circle-one.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-1">
+            <img src="./assets/images/about-circle-two.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-2">
+
+            <img src="./assets/images/fitness.png" width="650" height="154" loading="lazy" alt="fitness"
+              class="abs-img w-100">
+          </div>
+
+          
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+<section class="section video" aria-label="video" style="margin-bottom: 100px;">
+        <div class="container">
+
+          <div class="video-card has-before has-bg-image"
+            style="background-image: url('./assets/images/vidcover.png')">
+
+            <h2 class="h2 card-title">About Filip</h2>
+
+            <button class="play-btn" aria-label="play video">
+              <ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+            </button>
+
+            <a href="#" class="btn-link has-before">To be recorded</a>
+
+          </div>
+
+        </div>
+      </section>
+  
+
+
+
+
+
+      <!-- 
+        - #CLASS
+      -->
+
+      
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            
+
+            <span class="span">Pull Up Mastery</span>
+          </a>
+
+          <p class="footer-brand-text">
+            Work hard for a better life.
+          </p>
+
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Our Links</p>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="class.html" class="footer-link">Private Coaching</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="footer-link">Filip</a>
+          </li>
+
+          <li>
+            <a href="join.html" class="footer-link">Join</a>
+          </li>
+
+          
+
+        </ul>
+
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2025 Pull Up Mastery. All Rights Reserved By <a href="#" class="copyright-link">Pull Up Mastery</a>
+        </p>
+
+        
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

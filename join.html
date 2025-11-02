@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+  <link rel="preload" as="image" href="./assets/images/calories.svg">
+ <!-- 
+    - test
+  -->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="barbell.svg" style="width: 50px">
+
+        <span class="span">Pull Up Mastery</span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="class.html" class="navbar-link" data-nav-link>Private coaching</a>
+          </li>
+			<li>
+            <a href="about.html" class="navbar-link" data-nav-link>Filip</a>
+          </li>
+        </ul>
+
+      </nav>
+
+      
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <strong class="strong">The Best</strong>Strenght Guidance
+            </p>
+
+            <h1 class="h1 hero-title">Work Hard For a Better Life</h1>
+
+            <p class="section-text">
+              Road to greatness starts with yourself, your own will is your only limit.
+            </p>
+
+            
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/heroOPT.png"height="753" alt="hero banner" class="w-100">
+
+            <img src="./assets/images/hero-circle-one.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-1">
+            <img src="./assets/images/hero-circle-two.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-2">
+
+            
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FORM
+      -->
+
+     <section class="section class bg-dark has-bg-image" id="class" aria-label="class"
+  style="background-image: url('./assets/images/classes-bg.png')">
+  <div class="container">
+
+    <p class="section-subtitle">Our Coaching Programs</p>
+    <h2 class="h2 section-title text-center">Choose Your Path to Strength</h2>
+
+    <div class="class-stack">
+
+      <!-- Card 1 -->
+      <div class="class-card card-sub">
+        <figure class="card-banner img-holder">
+          <img src="./assets/images/cardioOPT.jpg" alt="Cardio & Strength" class="img-cover">
+        </figure>
+        <div class="desc">
+          <h3 class="h3 card-title">Pull Up Mastery</h3>
+          <p class="card-text">Private coaching group with essential materials to help you push beyond your current limits.</p>
+          <div class="progress-wrapper">
+            <p class="progress-label">Enrollment</p>
+            <span class="progress-value">60%</span>
+          </div>
+          <div class="progress-bg">
+            <div class="progress-bar" style="width: 60%"></div>
+          </div>
+          <a href="https://buy.stripe.com/dRmbJ0a6ffPb4CncBc6c000" class="btn btn-primary">Join Now (50€)</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="class-card card-sub">
+        <figure class="card-banner img-holder">
+          <img src="./assets/images/coaching.jpg" alt="Power Ups" class="img-cover">
+        </figure>
+        <div class="desc">
+          <h3 class="h3 card-title">Private Coaching</h3>
+          <p class="card-text">Personalized Training Plan
+
+Workout Structure & Progression - Not just “what to do,” but a clear roadmap showing exactly how to progress week after week.
+
+Video Analysis & Feedback - Clips of your pull-ups/muscle-ups, I break down your form and give corrections. (This is high value, most coaches don’t offer this.)
+
+Nutrition & Recovery Guidance 
+
+Direct Access to You - One-on-one communication for questions, feedback, and accountability.
+
+Lifetime Contact (after the month) - Most coaching cuts off when the program ends — I stand out by offering ongoing support. Even if it’s just the option to ask the occasional question.
+</p>
+          <div class="progress-wrapper">
+            <p class="progress-label">Enrollment</p>
+            <span class="progress-value">90%</span>
+          </div>
+          <div class="progress-bg">
+            <div class="progress-bar" style="width: 90%"></div>
+          </div>
+          <a href="https://buy.stripe.com/dRmfZgdireL7gl544G6c001" class="btn btn-primary">Join Now (100€)</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+
+  
+
+
+
+
+
+      <!-- 
+        - #CLASS
+      -->
+
+      
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            
+
+            <span class="span">Pull Up Mastery</span>
+          </a>
+
+          <p class="footer-brand-text">
+            Work hard for a better life.
+          </p>
+
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Our Links</p>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="class.html" class="footer-link">Private Coaching</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="footer-link">Filip</a>
+          </li>
+
+          <li>
+            <a href="join.html" class="footer-link">Join</a>
+          </li>
+
+          
+
+        </ul>
+
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2025 Pull Up Mastery. All Rights Reserved By <a href="#" class="copyright-link">Pull Up Mastery</a>
+        </p>
+
+        
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
