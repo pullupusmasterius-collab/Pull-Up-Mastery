@@ -17,7 +17,6 @@ const addEventOnElem = function (elem, type, callback) {
 }
 
 
-
 /**
  * navbar toggle
  */
@@ -37,7 +36,7 @@ addEventOnElem(navLinks, "click", closeNavbar);
 
 
 /**
- * header & back top btn active
+ * header & back top button active
  */
 
 const header = document.querySelector("[data-header]");
