@@ -7,28 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pull Up Mastery</title>
 
-  <!-- 
-    - favicon
-  -->
+
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-  <!-- 
-    - custom css link
-  -->
+ 
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- 
-    - google font link
-  -->
+ 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
     rel="stylesheet">
 
-  <!-- 
-    - preload images
-  -->
+  
   <link rel="preload" as="image" href="./assets/images/heroOPT.png">
   <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
   <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
@@ -269,7 +261,7 @@ document.querySelector(".video-modal").addEventListener("click", e => {
 });
 'use strict';
 
-// ... (Your existing addEventOnElem, navbar toggle, header scroll functions) ...
+
 
 /**
  * Video Modal Elements
@@ -279,7 +271,7 @@ const videoElement = document.getElementById("modalVideo"); // The actual <video
 const closeModalBtn = document.querySelector(".close-modal"); // The 'x' close button
 
 const isMobile = function () {
-  // Matches your CSS media query max-width: 767px
+
   return window.innerWidth <= 767;
 }
 
@@ -288,10 +280,10 @@ const isMobile = function () {
  */
 const handleFullscreen = function () {
   if (isMobile() && videoElement) {
-    // Standard and vendor-prefixed Fullscreen API request
+   
     if (videoElement.requestFullscreen) {
       videoElement.requestFullscreen();
-    } else if (videoElement.webkitEnterFullscreen) { // Specific iOS/Safari workaround
+    } else if (videoElement.webkitEnterFullscreen) { 
       videoElement.webkitEnterFullscreen();
     }
   }
@@ -301,14 +293,13 @@ const handleFullscreen = function () {
  * Modal Open/Close Functions
  */
 const openVideoModal = function () {
-  videoModal.style.display = 'flex'; // Show the modal
-  // Note: The 'autoplay' attribute on the HTML video will cause a 'play' event
-  // which is when we should trigger the fullscreen request.
+  videoModal.style.display = 'flex'; 
+ 
 }
 
 const closeVideoModal = function () {
   videoModal.style.display = 'none';
-  // Also stop the video and exit fullscreen when closing the modal
+  
   if (videoElement) {
     videoElement.pause();
     videoElement.currentTime = 0;
@@ -318,63 +309,22 @@ const closeVideoModal = function () {
   }
 }
 
-// Add event listeners
+//event listeners
 
-// 1. Listen for the 'play' event on the video element
-// When the video starts playing (which happens when the modal opens due to 'autoplay'),
-// we check if it's mobile and request fullscreen.
+
 if (videoElement) {
   videoElement.addEventListener("play", handleFullscreen);
 }
 
-// 2. Add listener to close button
+
 if (closeModalBtn) {
   closeModalBtn.addEventListener("click", closeVideoModal);
 }
 
-// 3. Add listeners to elements that OPEN the modal (example: a button with data-open-video)
-// You must link this to the button/link that triggers the modal.
-// Example: const openModalBtn = document.querySelector('[data-open-video]');
-// addEventOnElem(openModalBtn, "click", openVideoModal);
 
-// You must manually integrate the openVideoModal() function with the user action
-// that currently shows your modal.
 </script>
 
 
-     
-
-
-
-
-
-
-      <!-- 
-        - #VIDEO
-      -->
-
-      
-		
-		
-		
-
-
-
-
-
-      <!-- 
-        - #CLASS
-      -->
-
-      
-
-
-
-
-
-      <!-- 
-        - #BLOG
-      -->
 
      
 
@@ -469,14 +419,9 @@ if (closeModalBtn) {
 
 
 
-  <!-- 
-    - custom js link
-  -->
   <script src="./assets/js/script.js" defer></script>
 
-  <!-- 
-    - ionicon link
-  -->
+  
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 

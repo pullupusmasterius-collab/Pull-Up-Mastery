@@ -1,18 +1,7 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
 
 
 
 
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -726,7 +715,7 @@ clear{
 
 
 /*-----------------------------------*\
-  Join
+  #JOIN
 \*-----------------------------------*/
 .class-stack {
   display: flex;
@@ -957,16 +946,10 @@ clear{
   #MEDIA QUERIES
 \*-----------------------------------*/
 
-/**
- * responsive for larger than 575px screen
- */
 
 @media (min-width: 575px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
-
+ 
   :root {
 
     /**
@@ -1068,9 +1051,7 @@ clear{
 
 
 
-/**
- * responsive for larger than 768px screen
- */
+
 
 @media (min-width: 768px) {
 
@@ -1134,9 +1115,6 @@ clear{
 
 
 
-/**
- * responsive for larger than 992px screen
- */
 
 @media (min-width: 992px) {
 
@@ -1258,7 +1236,9 @@ clear{
   }
 
 
-/** Videos **/
+/**
+   * VIDEO
+   */
 	
 	/* Showcase Section */
 .showcase {
@@ -1465,9 +1445,6 @@ clear{
 
 
 
-/**
- * responsive for larger than 1200px screen
- */
 
 @media (min-width: 1200px) {
 
@@ -1600,14 +1577,14 @@ clear{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2; /* Make sure it's above the thumbnail */
+  z-index: 2; 
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px;   /* adjust as needed */
-  height: 64px;  /* adjust as needed */
+  width: 64px;   
+  height: 64px;  
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.5); /* optional: subtle background circle */
+  background-color: rgba(0, 0, 0, 0.5); 
   transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
